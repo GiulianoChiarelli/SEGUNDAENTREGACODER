@@ -1,0 +1,270 @@
+header {background-color: rgb(34, 34, 34);
+}
+
+body {background-color: black;  font-family: sans-serif;
+}
+
+footer {background-color: black;  
+}
+
+#actual {color: rgb(39, 151, 151);
+}
+
+header .logo {margin: 0; height: 150px ; width: auto; cursor: pointer; 
+}
+
+header .logo:hover {transition: all 0.5s; transform: scale(1.2); 
+}
+
+.logo {height: 6rem; width: 6rem;
+}
+
+.navbar {color: rgb(7, 167, 164); background-color: rgb(34, 34, 34);}
+
+.nav-link {color: rgb(196, 243, 242);
+    font-weight: 500;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 5px solid rgb(17, 191, 214);
+    font-size: x-large;
+    margin: 1%;
+}
+
+
+h1 {color: rgb(7, 167, 164); text-align: center;
+}
+
+h2 {color: rgb(7, 167, 164); text-align: center; font-weight: 900;
+}
+
+p {color: rgb(7, 167, 164)
+}
+
+.Opc {text-align: center; font-size: large; font-weight: 800;}
+
+
+.titulopag {background-color: rgb(34, 34, 34); margin: 30px; padding: 30px; 
+box-sizing: border-box;
+}
+
+.imagenes {display: flex; text-align: center
+}
+
+.h2 {text-align: center; color: rgb(7, 167, 164); background-color: rgb(34, 34, 34); margin: 0px; padding: 0px; 
+    box-sizing: border-box;
+}
+
+.h3 {text-align: left; color: rgb(7, 167, 164);
+}
+
+.manga {margin: 3%; border: 3px solid rgb(7, 167, 164);
+}
+
+.manga2 {margin: 5%;
+}
+
+.redes {color: rgb(7, 167, 164); text-align: left;
+}
+
+.coleccionmanga {display: flex;
+}
+
+.coleccionmanga1 {display: flex;
+}
+
+.margen {margin: 5%; border: 5px solid rgb(34, 34, 34);
+}
+
+.click {text-align: center; color: rgb(7, 167, 164); text-decoration-style: double; 
+}
+
+.masinfo {text-align:center; background-color: rgb(34, 34, 34); margin: 30px; padding: 30px; 
+    box-sizing: border-box;
+}
+
+.tops {display: flex; text-align: center
+}
+
+.imgtops {border: 5px solid rgb(34, 34, 34);
+}
+
+.centrar {text-align: center;
+}
+
+.video {text-align: center; margin-left: 4%; margin-right: 4%; margin-top: 2%; margin-bottom: 2%;
+}
+
+.form {text-align: left; color: beige;
+}
+
+.imgportada2 {text-align: center; width: 100%;
+}
+
+.form {text-align: center; font-size: larger;
+}
+
+.lector {text-align: center; width: 100vw; max-width: 800px; min-width: 370; margin: auto;
+}
+
+.imglector { width: 100%; max-width: 800px; min-width: 370; margin: auto;
+}
+
+.imgportada {text-align: center; margin-left: 2%; margin-right: 2%;
+}
+.carruselnone {text-align: center; margin-left: 2%; margin-right: 2%;
+}
+
+.paginado {text-align: center; display: inline; margin: 1px; padding: 1px; 
+    box-sizing: border-box;}
+
+.pagcas {text-align: center; display: inline; margin: 1px; padding: 1px; 
+    box-sizing: border-box;}
+
+.bibliomanga {background-color: rgb(9, 131, 129); margin: 30px; padding: 30px; 
+    box-sizing: border-box;}
+
+.accordion {text-align: center;
+}
+
+.grilla {
+    border: 3px solid rgb(34, 34, 34)
+}
+.border {
+    border: 3px solid rgb(34, 34, 34)
+}
+
+.grilla {
+display: grid;
+text-align: center;
+justify-content: center;
+grid-template-rows: auto auto auto auto;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+grid-template-areas:
+"grilla1 grilla1 grilla1 grilla1"
+"grilla2 grilla2 grilla2 grilla2"
+"grilla3 grilla3 grilla4 grilla4"
+"grilla5 grilla5 grilla6 grilla6"
+"grilla7 grilla8 grilla9 grilla10";
+}   
+
+#grilla1 {grid-area: grilla1;
+}
+#grilla2 {grid-area: grilla2;
+}
+#grilla3{grid-area: grilla3;
+}
+#grilla4 {grid-area: grilla4;
+}
+#grilla5 {grid-area: grilla5;
+}
+#grilla6{grid-area: grilla6;
+}
+#grilla7{grid-area: grilla7;
+}
+#grilla8{grid-area: grilla8;
+}
+#grilla9{grid-area: grilla9;
+}
+#grilla10{grid-area: grilla10;
+}
+
+.grilla2 {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-areas:
+    "grilla21 grilla21 grilla21 grilla21"
+    "grilla22 grilla22 grilla22 grilla22"
+    "grilla23 grilla23 grilla23 grilla23"
+    "grilla24 grilla24 grilla24 grilla24"
+    "grilla25 grilla25 grilla25 grilla25"
+    "grilla26 grilla26 grilla26 grilla26"
+    "grilla27 grilla27 grilla27 grilla27"
+    "grilla28 grilla28 grilla28 grilla28"
+    "grilla29 grilla29 grilla29 grilla29"
+    "grilla210 grilla210 grilla210 grilla210"
+}   
+    #grilla21 {grid-area: grilla21;
+    }
+    #grilla22 {grid-area: grilla22;
+    }
+    #grilla23{grid-area: grilla23;
+    }
+    #grilla24 {grid-area: grilla24;
+    }
+    #grilla25 {grid-area: grilla25;
+    }
+    #grilla26{grid-area: grilla26;
+    }
+    #grilla27{grid-area: grilla27;
+    }
+    #grilla28{grid-area: grilla28;
+    }
+    #grilla29{grid-area: grilla29;
+    }
+    #grilla210{grid-area: grilla210;
+    }
+
+.imggrid {height: 100%; width: 100%;
+}
+.carousel-inner {text-align: center; margin-bottom: 2%; 
+}
+
+.label {color: aliceblue;
+}
+
+.abrirmenu {display: none}
+
+.grilla2 {display: none}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+
+.coleccionmanga1 {display: flow-root; text-align: center; 
+}
+.carruselnone {display: none;
+}
+.video {width: 100%; text-align: center;
+}
+.coleccionmanga {display: flow-root; text-align: center; 
+}
+.imagenportada {display: flow-root; text-align: center; width: 500px; height: 1300px;}
+
+.grilla {display: none}
+
+.grilla2 {display: block}
+
+
+}
+/*👉2º PREENTREGA👈
+
+
+
+❓Que debo realizar?
+
+Trabajar en al menos 2 (pueden ser mas) html los temas vistos . Todos los html (los cinco) deben tener estructura inicial con etiquetas semanticas, pueden tener contenido de relleno
+
+Incluir box model + bootstrap + grids + flex + responsive para que se vea bien en mobile y desktop (con media queries o grid system de bootstrap)
+
+❓Como entrego?
+
+Link de repositorio (boton verde)
+
+Deben tener activo github pages
+
+
+
